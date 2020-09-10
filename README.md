@@ -5,7 +5,6 @@ In this repository, we are making our pre-trained word embeddings based word2vec
 For running the model, use the below mentioned code:
 
 import gensim
-
 model = gensim.models.KeyedVectors.load_word2vec_format('path', binary = True)
 
 
